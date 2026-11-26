@@ -1,0 +1,13 @@
+# Extracted Windows XP installation media and generated ISOs
+working_src/
+*.iso
+*.bin
+
+# Proprietary NVIDIA driver binaries/catalogs (keep folder via .gitkeep)
+drivers/*
+!drivers/.gitkeep
+
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+desktop.ini
